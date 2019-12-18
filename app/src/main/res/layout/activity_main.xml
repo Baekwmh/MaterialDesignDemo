@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    >
+
+   <androidx.appcompat.widget.Toolbar
+       android:id="@+id/tool_bar"
+       android:layout_width="match_parent"
+       android:layout_height="?android:attr/actionBarSize"
+       android:background="?attr/colorPrimary"
+       android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+
+       app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+       >
+
+   </androidx.appcompat.widget.Toolbar>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RecyclerView的应用"
+
+        android:id="@+id/recycler"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="COORDINATORLAYOUT的应用"
+
+        android:id="@+id/coordinator"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TabLayout的应用"
+
+        android:id="@+id/tab"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Navigation的应用"
+
+        android:id="@+id/naviga"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Navigationtion的应用"
+
+        android:id="@+id/notifica"
+        />
+
+</LinearLayout>
